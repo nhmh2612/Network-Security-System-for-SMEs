@@ -41,12 +41,38 @@ Dự án xây dựng hệ thống mạng bảo mật cho doanh nghiệp vừa v�
   - Quản lý tài nguyên hệ thống  
   - Remote làm việc từ xa (cho phép nhân viên làm việc từ xa an toàn)
 
-## 📖 Tài liệu hướng dẫn
-- [1. Thiết kế mạng](docs/1_network_design.md)
-- [2. Firewall OPNsense](docs/2_firewall_opnsense.md)
-- [3. IDS Security Onion](docs/3_ids_securityonion.md)
-- [4. Splunk](docs/4_splunk.md)
-- [5. Active Directory](docs/5_ad_management.md)
-- [6. OpManager](docs/6_opmanager.md)
-- [7. Proxmox](docs/7_proxmox.md)
-- [8. Tổng kết](docs/8_summary.md)
+## 📖 Tài liệu tổng quan (`docs/`)
+- [1. Thiết kế mạng](docs/1_network_design.md)  
+- [2. Firewall OPNsense](docs/2_firewall_opnsense.md)  
+- [3. IDS Security Onion](docs/3_ids_securityonion.md)  
+- [4. Splunk](docs/4_splunk.md)  
+- [5. Active Directory](docs/5_ad_management.md)  
+- [6. OpManager](docs/6_opmanager.md)  
+- [7. Proxmox](docs/7_proxmox.md)  
+- [8. Tổng kết](docs/8_summary.md)  
+
+---
+
+## ⚙️ Hướng dẫn cài đặt chi tiết (`install/`)
+- [Cài đặt OPNsense](install/opnsense_install.md)  
+- [Cài đặt Security Onion](install/securityonion_install.md)  
+- [Cài đặt Splunk](install/splunk_install.md)  
+- [Cài đặt AD Manager & AD Audit Plus](install/ad_management_install.md)  
+- [Cài đặt OpManager](install/opmanager_install.md)  
+- [Cài đặt Proxmox VE](install/proxmox_install.md)  
+
+---
+
+## 🔑 Các thành phần chính trong hệ thống
+- **Router**: Kết nối hệ thống nội bộ với Internet.  
+- **Firewall (OPNsense)**: Lọc lưu lượng, bảo mật mạng.  
+- **Switch**: Chia VLAN (Tech, Office, WiFi).  
+- **Security Onion**: Giám sát & phát hiện xâm nhập.  
+- **Datacenter**: Lưu trữ dữ liệu quan trọng.  
+- **Management Server**:  
+  - DNS Server  
+  - AD Audit Plus  
+  - OpManager  
+  - Splunk  
+  - AD Manager  
+- **Proxmox VE**: Ảo hóa máy chủ, hỗ trợ remote work an toàn.  
