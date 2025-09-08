@@ -19,8 +19,8 @@ Dự án xây dựng hệ thống mạng bảo mật cho doanh nghiệp vừa v�
 ## 📂 Cấu trúc repo
 - `diagrams/` : Sơ đồ mạng & UML
 - `configs/` : File cấu hình mẫu (firewall, VLAN)
-- `configs/` : # File cấu hình, hướng dẫn
-  
+- `docs/` : Tài liệu tổng quan
+- `install/` : Hướng dẫn cài đặt & cấu hình chi tiết
 
 ## ⚙️ Các thành phần chính trong hệ thống
 - **Router**: Kết nối hệ thống nội bộ với mạng bên ngoài (External Network), là điểm đầu vào của dữ liệu từ bên ngoài.  
