@@ -41,3 +41,13 @@ Dự án xây dựng hệ thống mạng bảo mật cho doanh nghiệp vừa v�
   - Quản lý tài nguyên hệ thống  
   - Remote làm việc từ xa (cho phép nhân viên làm việc từ xa an toàn)
 
+## 📖 Tài liệu hướng dẫn
+- [1. Thiết kế mạng](docs/1_network_design.md)
+- [2. Firewall OPNsense](docs/2_firewall_opnsense.md)
+- [3. IDS Security Onion](docs/3_ids_securityonion.md)
+- [4. Splunk](docs/4_splunk.md)
+- [5. Active Directory](docs/5_ad_management.md)
+- [6. OpManager](docs/6_opmanager.md)
+- [7. Proxmox](docs/7_proxmox.md)
+- [8. Tổng kết](docs/8_summary.md)
+
