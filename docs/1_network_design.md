@@ -1,7 +1,7 @@
 # 1. Thiết kế mạng doanh nghiệp SMEs
 
 ## 1.1 Sơ đồ tổng quan
-![Sơ đồ mạng SMEs](../diagrams/Network Security Diagram.jpg)
+![Sơ đồ mạng SMEs](../diagrams/Network Security Diagram.png)
 
 **Hình 1**: Sơ đồ thiết kế hệ thống mạng cho doanh nghiệp vừa và nhỏ.
 
@@ -37,4 +37,5 @@
 6. **Router** kết nối Internet  
 7. **Firewall chuyên dụng** cho OPNsense  
 8. **Switch Cisco** chia VLAN cho nội bộ công ty  
+
 
